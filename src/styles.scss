@@ -181,12 +181,12 @@ hr {
 	color: #fff;
 	background: url(assets/img/intro-bg-1.jpg) no-repeat center top;
 	background-color: #121d1f;
-	background-size: cover !important;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	
 	-o-background-size: cover;
-	background-attachment: fixed;
+	//background-attachment: fixed;
 }
 .section-title.center {
 	padding: 25px 0 45px 0;
@@ -649,6 +649,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 0;
 	text-align: left;
 	color: #fff;
+	background-attachment: fixed;
 }
 .intro H1 {
 	font-size: 60px;
