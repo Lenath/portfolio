@@ -52,5 +52,27 @@
 <script type="text/javascript" src="assets/js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="assets/js/contact_me.js"></script> 
 <script type="text/javascript" src="assets/js/main.js"></script>
+
 </body>
+
+<script>
+    function certificatesCounter(){
+        var certElements = document.querySelectorAll('.portfolio-item').length;
+        console.log(certElements + 'certificates');
+        document.getElementById("certificatesNumber").textContent = certElements;
+        //document.querySelectorAll('#certificatesNumber')
+    }
+    certificatesCounter();
+
+    function monthDiff(dateFrom, dateTo) {
+ return dateTo.getMonth() - dateFrom.getMonth() + 
+   (12 * (dateTo.getFullYear() - dateFrom.getFullYear()))
+}
+
+
+//my experience
+myExperience = monthDiff(new Date(2018, 05), new Date());
+document.getElementById("devExperience").textContent = myExperience;
+</script>
+
 </html>
