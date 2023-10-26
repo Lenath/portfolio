@@ -214,6 +214,20 @@ hr {
 	margin-bottom: 30px;
 }
 /* Skills Section */
+.hackyeah {
+	display: table;
+	width: 100%;
+	height: 50vh;
+	text-align: center;
+	color: #fff;
+	background: url(assets/img/hackyeah2022.jpg) no-repeat center bottom;
+	background-color: #121d1f;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	//background-attachment: fixed;
+}
 #skills {
 	padding: 100px 0;
 	background: #7bc3d1;
