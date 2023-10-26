@@ -291,8 +291,8 @@ function wheel(event) {
         deltaY *= options.stepSize / 120;
     }
     
-    scrollArray(overflowing, -deltaX, -deltaY);
-    event.preventDefault();
+    scrollArray();
+    //event.preventDefault();
 }
 
 /**
@@ -362,8 +362,8 @@ function keydown(event) {
             return true; // a key we don't care about
     }
 
-    scrollArray(elem, x, y);
-    event.preventDefault();
+    scrollArray();
+    //event.preventDefault();
 }
 
 /**
